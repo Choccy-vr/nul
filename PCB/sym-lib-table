@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ESP32-C3FH4") (type "KiCad") (uri "${KIPRJMOD}/PCB-resources/ESP32-C3FH4/ESP32-C3FH4.kicad_sym") (options "") (descr ""))
+)
