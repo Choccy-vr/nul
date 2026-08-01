@@ -5795,6 +5795,26 @@
 		)
 		(uuid "ffbbb610-b97d-400f-bc25-c5069133dd4b")
 	)
+	(label "USB_DATA-"
+		(at 124.46 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00d36df2-88f6-4d7b-9261-4f21aacfd85d")
+	)
+	(label "USB_DATA+"
+		(at 130.81 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ad8cfff-6b7c-4f1c-bd4a-ab8a60ac06c8")
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 248.92 154.94 0)
