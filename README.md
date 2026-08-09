@@ -22,7 +22,8 @@ Nul is a small, compact WLED controller that is meant to go in line with your LE
 <img width="1626" height="1117" alt="image" src="https://github.com/user-attachments/assets/8a44277f-a994-4d66-9087-c7082922e6d2" />
 
 ### PCB
-<img width="353" height="873" alt="image" src="https://github.com/user-attachments/assets/aa2065eb-edac-43b5-8ddf-7975f78f5229" />
+<img width="360" height="843" alt="image" src="https://github.com/user-attachments/assets/52760a7f-e393-44ea-8ca0-718bf7ec2c1d" />
+
 <img width="1083" height="596" alt="nul" src="https://github.com/user-attachments/assets/5c64c97a-42e1-4a3c-96e7-0a78f44ff5c6" />
 
 
