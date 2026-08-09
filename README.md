@@ -1,6 +1,6 @@
 # nul
 A WLED controller that blends into the background
-<img width="1083" height="596" alt="nul" src="https://github.com/user-attachments/assets/5c64c97a-42e1-4a3c-96e7-0a78f44ff5c6" />
+<img width="2048" height="1288" alt="nul" src="https://github.com/user-attachments/assets/7450c176-c692-471f-9e13-62a71fb078f1" />
 
 ## Description
 Nul is a small, compact WLED controller that is meant to go in line with your LED strip. Powered by an ESP32 C3 in a super small 11x40mm package.
@@ -23,8 +23,7 @@ Nul is a small, compact WLED controller that is meant to go in line with your LE
 
 ### PCB
 <img width="360" height="843" alt="image" src="https://github.com/user-attachments/assets/52760a7f-e393-44ea-8ca0-718bf7ec2c1d" />
-
-<img width="1083" height="596" alt="nul" src="https://github.com/user-attachments/assets/5c64c97a-42e1-4a3c-96e7-0a78f44ff5c6" />
+<img width="2048" height="1288" alt="nul" src="https://github.com/user-attachments/assets/7450c176-c692-471f-9e13-62a71fb078f1" />
 
 
 
