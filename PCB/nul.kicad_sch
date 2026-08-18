@@ -4650,6 +4650,12 @@
 		(uuid "def6785d-01eb-46f1-adec-c96bcf6e478c")
 	)
 	(junction
+		(at 107.95 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfd756b6-03bd-43ef-83f2-9c595e5a9a7c")
+	)
+	(junction
 		(at 149.86 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5257,7 +5263,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 153.67) (xy 118.11 153.67)
+			(xy 101.6 153.67) (xy 107.95 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5454,16 +5460,6 @@
 			(type default)
 		)
 		(uuid "b0f00037-4096-4e40-8f8d-58137d2de18c")
-	)
-	(wire
-		(pts
-			(xy 118.11 135.89) (xy 118.11 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2342af0-41cd-4eb1-b11e-6825f8362cb5")
 	)
 	(wire
 		(pts
@@ -5767,6 +5763,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 153.67) (xy 118.11 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26353ed-1794-46f1-8db0-aa1b0d7ec8f1")
+	)
+	(wire
+		(pts
 			(xy 160.02 55.88) (xy 163.83 55.88)
 		)
 		(stroke
@@ -5774,6 +5780,16 @@
 			(type default)
 		)
 		(uuid "f55134eb-489a-4b77-89e5-4143a16be9c6")
+	)
+	(wire
+		(pts
+			(xy 107.95 148.59) (xy 107.95 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea35c7a-afef-4440-98be-674580f13a71")
 	)
 	(wire
 		(pts
@@ -6946,6 +6962,84 @@
 			(project "nul"
 				(path "/fd672162-7b7f-4b25-941f-c6fc959beb48"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "220eabae-089f-4db8-9ea9-054d28cad7ec")
+		(property "Reference" "#PWR042"
+			(at 107.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a045a632-e926-4f53-8dc1-237f8215bb6c")
+		)
+		(instances
+			(project "nul"
+				(path "/fd672162-7b7f-4b25-941f-c6fc959beb48"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8744,6 +8838,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 107.95 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7965dd2f-c4a7-4584-a035-136c19400c30")
+		(property "Reference" "C13"
+			(at 108.966 148.336 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF ceramic"
+			(at 111.76 151.1363 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 107.95 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 107.95 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e726140f-cc6b-4fb7-b430-0caf2f873985")
+		)
+		(pin "2"
+			(uuid "718c8132-bcc3-44b3-9d65-cc072fbc0d72")
+		)
+		(instances
+			(project "nul"
+				(path "/fd672162-7b7f-4b25-941f-c6fc959beb48"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 261.62 147.32 0)
 		(unit 1)
@@ -9071,7 +9256,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 118.11 135.89 0)
+		(at 118.11 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9082,7 +9267,7 @@
 		(fields_autoplaced yes)
 		(uuid "859d923a-5166-4aac-a5b8-62f076832ba0")
 		(property "Reference" "#PWR024"
-			(at 118.11 139.7 0)
+			(at 118.11 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9093,7 +9278,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 118.11 130.81 0)
+			(at 118.11 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9103,7 +9288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 135.89 0)
+			(at 118.11 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9114,7 +9299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 135.89 0)
+			(at 118.11 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9125,7 +9310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 118.11 135.89 0)
+			(at 118.11 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12343,99 +12528,6 @@
 			(project "nul"
 				(path "/fd672162-7b7f-4b25-941f-c6fc959beb48"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.11 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec7e5bf6-e48f-4366-8527-936a29d9f194")
-		(property "Reference" "C13"
-			(at 121.92 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 121.92 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 119.0752 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1525"
-			(at 118.11 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f27628b2-8985-4f0f-8366-05af5afd0bcb")
-		)
-		(pin "1"
-			(uuid "267439b9-8237-4e70-b91a-353a700599ac")
-		)
-		(instances
-			(project "nul"
-				(path "/fd672162-7b7f-4b25-941f-c6fc959beb48"
-					(reference "C13")
 					(unit 1)
 				)
 			)
