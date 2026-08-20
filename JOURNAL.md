@@ -1,6 +1,28 @@
-Total Time: 14.6h
+Total Time: 17.6h
 
 Date Descending
+
+# Polishing and revising
+Aug 19 2026
+Ginobeano
+Ginobeano
+3h
+
+Polishing and revising
+This journal contains quite a few days mostly cause I didn't know I could jorunal about this.
+
+So I sent a message in gadget market ships and I got some really helpful feedback and in turn  Irevised it a bunch
+
+I revised quite a few thing but here are the notable things
+- fix rf
+- 4 layer board
+- fix level shifter decop caps
+- make things visually more appealing
+- and more
+
+<img width="2254" height="1423" alt="image" src="https://github.com/user-attachments/assets/6212595f-457c-4a21-ac68-6e3690ac037b" />
+<img width="1495" height="1089" alt="image" src="https://github.com/user-attachments/assets/ad6556c6-6eb1-44f5-a678-a32291c10f43" />
+<img width="1495" height="1089" alt="image" src="https://github.com/user-attachments/assets/bee211a0-7d14-4399-b4a2-e6f1ad0d878d" />
 
 # Finishing up
 Aug 1, 2026
