@@ -7,7 +7,7 @@ A WLED controller that blends into the background
 Nul is a small, compact WLED controller that is meant to go in line with your LED strip. Powered by an ESP32 C3 in a super small 11x40mm package.
 
 ## Instructions 
-1. Plug the board into your computer and flash WLED
+1. Plug the board into your computer and flash WLED (I recommend https://install.wled.me/)
 2. Connect your LED Strip to your board
 3. Attach your antenna
 4. Plug in any USB PD Power source and enjoy
