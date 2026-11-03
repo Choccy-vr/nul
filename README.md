@@ -11,6 +11,7 @@ Nul is a small, compact WLED controller that is meant to go in line with your LE
 2. Connect your LED Strip to your board
 3. Attach your antenna
 4. Plug in any USB PD Power source and enjoy
+5. Connect to the WLED-AP Access point and connect it to the internet.
 
 ## BOM
 |Product Name|Product Description|Product Link       |Product Cost|Total |
