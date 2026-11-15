@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -218,6 +218,7 @@
         0.16,
         0.2,
         0.254,
+        0.3,
         0.4,
         0.6,
         1.0
@@ -783,7 +784,7 @@
         "uuid": "fd672162-7b7f-4b25-941f-c6fc959beb48"
       }
     ],
-    "used_designators": "C13,#PWR41-42",
+    "used_designators": "USB1,R10-12,Q1-2,C13,#PWR26-27,#PWR41-42",
     "variants": []
   },
   "sheets": [

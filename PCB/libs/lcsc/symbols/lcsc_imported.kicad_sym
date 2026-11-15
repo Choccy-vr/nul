@@ -1,0 +1,169 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_lcsc_manager")
+  (generator_version "1.0")
+  (symbol "TYPE-C_6P"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "USB"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "TYPE-C 6P"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "SN74AHCT1G125DBVR:C456012_TYPE-C-SMD_TYPE-C-6P_1"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012031006_SHOU-HAN-TYPE-C-6P_C456012.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "TYPE-C 6P"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C456012"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "SHOU HAN(首韩)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "TYPE-C_6P_1_1"
+      (pin unspecified line
+        (at 15.24 -0.0 180)
+        (length 5.08)
+        (name "EH"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "7"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -10.16 -7.62 0)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "A12"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -10.16 -5.08 0)
+        (length 5.08)
+        (name "VBUS"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "A9"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -10.16 -0.0 0)
+        (length 5.08)
+        (name "CC1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "A5"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -10.16 -2.54 0)
+        (length 5.08)
+        (name "CC2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "B5"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -10.16 2.54 0)
+        (length 5.08)
+        (name "VBUS"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "B9"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -10.16 5.08 0)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "B12"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (circle
+        (center -3.81000762001524 6.350012700025401)
+        (radius 0.381000762001524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (rectangle
+        (start -5.08001016002032 7.62001524003048)
+        (end 10.16002032004064 -10.16002032004064)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+    )
+  )
+)
